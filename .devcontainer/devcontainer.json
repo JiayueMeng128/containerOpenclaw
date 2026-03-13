@@ -1,0 +1,22 @@
+{
+    "name": "OpenClaw 最小环境（带缓存）",
+    "image": "ghcr.io/openclaw/openclaw:latest",
+    "mounts": [
+        "source=${localWorkspaceFolder}/.openclaw-data,target=/home/node/.openclaw,type=bind"
+    ],
+    "forwardPorts": [18789],
+    "portsAttributes": {
+        "18789": {
+            "label": "OpenClaw Web UI",
+            "onAutoForward": "notify"
+        }
+    },
+    "postStartCommand": "bash .devcontainer/start.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}

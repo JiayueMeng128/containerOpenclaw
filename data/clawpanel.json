@@ -1,0 +1,11 @@
+{
+  "port": 19527,
+  "dataDir": "/workspaces/containerOpenclaw/data",
+  "openClawDir": "/home/node/.openclaw",
+  "openClawApp": "/home/node/app",
+  "openClawWork": "/home/node/work",
+  "edition": "pro",
+  "jwtSecret": "clawpanel-secret-change-me",
+  "adminToken": "clawpanel",
+  "debug": false
+}

@@ -12,7 +12,7 @@
     "mounts": [
         "source=${localWorkspaceFolder}/.openclaw-data,target=/home/node/.openclaw,type=bind"
     ],
-    "forwardPorts": [18789, 22],
+    "forwardPorts": [18789, 22, 3001, 6099],
     "portsAttributes": {
         "18789": {
             "label": "OpenClaw Web UI",
@@ -21,6 +21,14 @@
         "22": {
             "label": "SSH",
             "onAutoForward": "ignore"
+        },
+        "3001": {
+            "label": "NapCat WebSocket",
+            "onAutoForward": "notify"
+        },
+        "6099": {
+            "label": "NapCat WebUI",
+            "onAutoForward": "notify"
         }
     },
     // 现在 node 用户可以使用 sudo 了

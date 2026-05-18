@@ -1,0 +1,2 @@
+2026/05/18 00:11:16 [Updater-Standalone] 独立更新子进程启动: version=5.3.7 dataDir=/workspaces/containerOpenclaw/data panelPort=19527 openClawDir=/home/node/.openclaw
+2026/05/18 00:11:16 [Updater-Standalone] 独立更新服务已启动 → http://0.0.0.0:19528/updater

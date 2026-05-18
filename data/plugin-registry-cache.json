@@ -1,0 +1,145 @@
+{
+  "version": "1.1.0",
+  "updatedAt": "2026-03-03T00:00:00Z",
+  "plugins": [
+    {
+      "id": "qq",
+      "name": "QQ 个人号通道 (NapCat OneBot)",
+      "version": "1.0.0",
+      "author": "ClawPanel Team",
+      "description": "通过 NapCat + OneBot v11 协议接入 QQ 个人号，支持私聊、群聊、图片/文件/动画表情收发、群管理工具等",
+      "homepage": "https://github.com/zhaoxinyi02/ClawPanel-Plugins",
+      "repository": "https://github.com/zhaoxinyi02/ClawPanel-Plugins",
+      "license": "MIT",
+      "category": "channel",
+      "tags": [
+        "QQ",
+        "OneBot",
+        "NapCat",
+        "个人号",
+        "群聊"
+      ],
+      "icon": "message-circle",
+      "minOpenClaw": "2026.1.0",
+      "minPanel": "v5.0.0",
+      "gitUrl": "https://github.com/zhaoxinyi02/ClawPanel-Plugins.git",
+      "installSubDir": "official/qq",
+      "readme": "# QQ 个人号通道插件 (NapCat OneBot v11)\n\n通过 [NapCat](https://github.com/NapCatQQ/NapCat-Docker) 实现 QQ 个人号接入，使用 OneBot v11 WebSocket 协议与 OpenClaw 通信。\n\n## 前提条件\n\n- 已通过 ClawPanel 安装并运行 NapCat Docker 容器\n- NapCat OneBot WS 服务端口 3001 可用\n- QQ 账号已在 NapCat WebUI (端口 6099) 完成扫码登录\n\n## 安装后配置\n\n在 `openclaw.json` 中添加：\n\n```json\n{\n  \"channels\": {\n    \"qq\": {\n      \"enabled\": true,\n      \"wsUrl\": \"ws://127.0.0.1:3001\"\n    }\n  }\n}\n```\n\n## 功能\n\n- 私聊 \u0026 群聊消息收发\n- 图片、语音、视频、文件上传\n- 动画表情缓存与回发\n- 群管理工具（踢人、禁言、设置管理员等）\n- @Bot 触发 / 概率触发 / 关键词触发\n- 好友/入群请求审核（通知主人 QQ 号审核）\n\n## 修复工具\n\n```bash\n# Linux/macOS\ncurl -sSO https://raw.githubusercontent.com/zhaoxinyi02/ClawPanel/main/scripts/fix-qq-napcat.sh\nsudo bash fix-qq-napcat.sh\n```"
+    },
+    {
+      "id": "feishu",
+      "name": "飞书通道插件",
+      "version": "1.1.0",
+      "author": "ClawPanel Team",
+      "description": "飞书 (Lark) 通道插件，通过飞书机器人 API 接入飞书群聊与单聊，支持消息卡片、文件收发",
+      "homepage": "https://github.com/zhaoxinyi02/ClawPanel-Plugins",
+      "repository": "https://github.com/zhaoxinyi02/ClawPanel-Plugins",
+      "license": "MIT",
+      "category": "channel",
+      "tags": [
+        "飞书",
+        "Lark",
+        "企业IM",
+        "群聊"
+      ],
+      "icon": "send",
+      "minOpenClaw": "2026.1.0",
+      "minPanel": "v5.0.0",
+      "gitUrl": "https://github.com/zhaoxinyi02/ClawPanel-Plugins.git",
+      "installSubDir": "official/feishu",
+      "readme": "# 飞书通道插件\n\n通过飞书机器人 API 接入飞书（Lark），支持群聊 @ 和单聊消息。\n\n## 前提条件\n\n- 飞书开放平台已创建应用并获取 App ID / App Secret\n- 已配置事件订阅回调地址\n\n## 配置\n\n在 `openclaw.json` 中添加：\n\n```json\n{\n  \"channels\": {\n    \"feishu\": {\n      \"enabled\": true,\n      \"appId\": \"YOUR_APP_ID\",\n      \"appSecret\": \"YOUR_APP_SECRET\",\n      \"verificationToken\": \"YOUR_TOKEN\",\n      \"encryptKey\": \"YOUR_ENCRYPT_KEY\"\n    }\n  }\n}\n```\n\n## 安装\n\n通过 ClawPanel 插件中心一键安装，或手动：\n\n```bash\ngit clone https://github.com/zhaoxinyi02/ClawPanel-Plugins.git\ncd ClawPanel-Plugins/official/feishu\nnpm install\n```"
+    },
+    {
+      "id": "dingtalk",
+      "name": "钉钉通道插件",
+      "version": "0.2.0",
+      "author": "ClawPanel Team",
+      "description": "钉钉 (DingTalk) 通道插件，通过钉钉 Stream API 接入钉钉群机器人，无需公网地址",
+      "homepage": "https://github.com/zhaoxinyi02/ClawPanel-Plugins",
+      "repository": "https://github.com/zhaoxinyi02/ClawPanel-Plugins",
+      "license": "MIT",
+      "category": "channel",
+      "tags": [
+        "钉钉",
+        "DingTalk",
+        "企业IM",
+        "Stream"
+      ],
+      "icon": "bell",
+      "minOpenClaw": "2026.1.0",
+      "minPanel": "v5.0.0",
+      "gitUrl": "https://github.com/zhaoxinyi02/ClawPanel-Plugins.git",
+      "installSubDir": "official/dingtalk",
+      "readme": "# 钉钉通道插件\n\n通过钉钉 Stream API 接入钉钉群机器人，无需配置公网回调地址，长连接推送。\n\n## 前提条件\n\n- 钉钉开放平台已创建自定义机器人应用\n- 获取 Client ID (AppKey) 和 Client Secret\n\n## 配置\n\n在 `openclaw.json` 中添加：\n\n```json\n{\n  \"channels\": {\n    \"dingtalk\": {\n      \"enabled\": true,\n      \"clientId\": \"YOUR_CLIENT_ID\",\n      \"clientSecret\": \"YOUR_CLIENT_SECRET\"\n    }\n  }\n}\n```"
+    },
+    {
+      "id": "qqbot",
+      "name": "QQ 官方机器人通道",
+      "version": "1.2.3",
+      "author": "ClawPanel Team",
+      "description": "QQ 官方机器人 API 通道插件，支持 C2C 私聊、群聊 @消息、频道消息，使用官方 WebSocket 接口",
+      "homepage": "https://github.com/zhaoxinyi02/ClawPanel-Plugins",
+      "repository": "https://github.com/zhaoxinyi02/ClawPanel-Plugins",
+      "license": "MIT",
+      "category": "channel",
+      "tags": [
+        "QQ",
+        "官方机器人",
+        "频道",
+        "群聊"
+      ],
+      "icon": "bot",
+      "minOpenClaw": "2026.1.0",
+      "minPanel": "v5.0.0",
+      "gitUrl": "https://github.com/zhaoxinyi02/ClawPanel-Plugins.git",
+      "installSubDir": "official/qqbot",
+      "readme": "# QQ 官方机器人通道插件\n\n通过 QQ 开放平台官方机器人 API 接入，需要在 [QQ 开放平台](https://q.qq.com/) 申请机器人资质。\n\n**注意**：官方机器人 API 与个人号 NapCat 方案不同，需要企业/个人开发者资质审核。\n\n## 配置\n\n```json\n{\n  \"channels\": {\n    \"qqbot\": {\n      \"enabled\": true,\n      \"appId\": \"YOUR_APP_ID\",\n      \"token\": \"YOUR_TOKEN\",\n      \"appSecret\": \"YOUR_APP_SECRET\",\n      \"sandbox\": false\n    }\n  }\n}\n```\n\n## 功能\n\n- C2C 单聊\n- QQ 群 @ 消息\n- 频道公开消息 \u0026 频道私信\n- 自动重连 \u0026 Session Resume\n- 消息去重（seq 管理）"
+    },
+    {
+      "id": "wecom",
+      "name": "企业微信通道插件",
+      "version": "2026.1.30",
+      "author": "ClawPanel Team",
+      "description": "企业微信 (WeCom/WeChat Work) 通道插件，通过加密回调 Webhook + 被动回复接入企业微信机器人",
+      "homepage": "https://github.com/zhaoxinyi02/ClawPanel-Plugins",
+      "repository": "https://github.com/zhaoxinyi02/ClawPanel-Plugins",
+      "license": "MIT",
+      "category": "channel",
+      "tags": [
+        "企业微信",
+        "WeCom",
+        "WeChat Work",
+        "企业IM"
+      ],
+      "icon": "briefcase",
+      "minOpenClaw": "2026.1.0",
+      "minPanel": "v5.0.0",
+      "gitUrl": "https://github.com/zhaoxinyi02/ClawPanel-Plugins.git",
+      "installSubDir": "official/wecom",
+      "npmPackage": "@openclaw/wecom",
+      "readme": "# 企业微信通道插件\n\n通过企业微信 API 模式（加密 Webhook + 被动回复流）接入企业微信智能机器人。\n\n## 安装\n\n```bash\n# 通过 npm（推荐）\nnpm install -g @openclaw/wecom\n\n# 或通过 ClawPanel 插件中心一键安装\n```\n\n## 配置\n\n```json\n{\n  \"channels\": {\n    \"wecom\": {\n      \"enabled\": true,\n      \"corpId\": \"YOUR_CORP_ID\",\n      \"agentId\": 1000000,\n      \"secret\": \"YOUR_SECRET\",\n      \"token\": \"YOUR_TOKEN\",\n      \"encodingAESKey\": \"YOUR_AES_KEY\"\n    }\n  }\n}\n```"
+    },
+    {
+      "id": "hello-world",
+      "name": "Hello World 示例插件",
+      "version": "1.0.0",
+      "author": "ClawPanel Team",
+      "description": "一个最小化的 OpenClaw 插件示例，演示插件基本结构和开发规范",
+      "homepage": "https://github.com/zhaoxinyi02/ClawPanel-Plugins",
+      "repository": "https://github.com/zhaoxinyi02/ClawPanel-Plugins",
+      "license": "MIT",
+      "category": "basic",
+      "tags": [
+        "示例",
+        "入门",
+        "教程"
+      ],
+      "icon": "sparkles",
+      "minOpenClaw": "2025.1.0",
+      "minPanel": "v5.0.0",
+      "gitUrl": "https://github.com/zhaoxinyi02/ClawPanel-Plugins.git",
+      "installSubDir": "official/hello-world",
+      "readme": "# Hello World 插件\n\n这是一个最小化的 OpenClaw 插件示例，用于演示插件的基本结构和开发规范。\n\n## 功能\n\n- 监听消息，当收到 `/hello` 时自动回复问候语\n- 支持自定义问候语和触发关键词\n\n## 配置\n\n| 字段 | 类型 | 默认值 | 说明 |\n|------|------|--------|------|\n| greeting | string | 你好！我是 OpenClaw 插件 👋 | 自定义问候语 |\n| trigger | string | /hello | 触发关键词 |\n| enabled | boolean | true | 是否启用自动回复 |"
+    }
+  ]
+}

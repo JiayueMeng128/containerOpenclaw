@@ -1,0 +1,6 @@
+=== Source: files/foreign/188_0/core/dict/ug.md5 ===
+Size: 32 bytes
+Modified: 2023-07-11T21:00:34
+==================================================
+
+C358F40D9EF161CC615ED27A4109FDD0

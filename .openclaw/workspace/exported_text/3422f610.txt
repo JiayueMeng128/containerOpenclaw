@@ -1,0 +1,6 @@
+=== Source: app_webview_sogou.mobile.explorer.hotwords/Default/Local Storage/leveldb/CURRENT ===
+Size: 16 bytes
+Modified: 2023-08-16T20:15:46
+==================================================
+
+MANIFEST-000001

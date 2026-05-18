@@ -1,0 +1,6 @@
+=== Source: files/foreign/1_10/extra_info ===
+Size: 25 bytes
+Modified: 2024-06-26T12:29:26
+==================================================
+
+{"extend_dict_version":7}

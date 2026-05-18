@@ -1,0 +1,547 @@
+================================================================================
+SOGOU INPUT METHOD DATA ANALYSIS REPORT
+================================================================================
+
+SUMMARY STATISTICS:
+Total files analyzed: 84
+Total data size: 3.98 MB
+
+File types found:
+  unknown (None): 47 files
+  empty_file: 20 files
+  likely_text: 11 files
+  image: 2 files
+  text: 2 files
+  json: 1 files
+  unknown (application/zip): 1 files
+
+================================================================================
+DETAILED ANALYSIS:
+================================================================================
+
+
+DIRECTORY: app_webview_sogou.mobile.explorer.hotwords/
+------------------------------------------------------------
+
+  app_webview_sogou.mobile.explorer.hotwords/variations_seed_new
+    Type: unknown (None)
+    Size: 31957 bytes
+    Modified: 2026-03-19T15:54:36
+
+  app_webview_sogou.mobile.explorer.hotwords/variations_stamp
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2026-03-19T15:54:36
+
+  app_webview_sogou.mobile.explorer.hotwords/webview_data.lock
+    Type: likely_text
+    Size: 36 bytes
+    Modified: 2026-03-19T15:54:36
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/777d15cd.txt]
+
+DIRECTORY: app_webview_sogou.mobile.explorer.hotwords/Default/
+------------------------------------------------------------
+
+  app_webview_sogou.mobile.explorer.hotwords/Default/Cookies-journal
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-08-16T20:15:46
+
+  app_webview_sogou.mobile.explorer.hotwords/Default/Web Data-journal
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-08-16T20:15:46
+
+DIRECTORY: app_webview_sogou.mobile.explorer.hotwords/Default/Local Storage/leveldb/
+------------------------------------------------------------
+
+  app_webview_sogou.mobile.explorer.hotwords/Default/Local Storage/leveldb/000003.log
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-08-16T20:15:46
+
+  app_webview_sogou.mobile.explorer.hotwords/Default/Local Storage/leveldb/CURRENT
+    Type: likely_text
+    Size: 16 bytes
+    Modified: 2023-08-16T20:15:46
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/3422f610.txt]
+
+  app_webview_sogou.mobile.explorer.hotwords/Default/Local Storage/leveldb/LOCK
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-08-16T20:15:46
+
+  app_webview_sogou.mobile.explorer.hotwords/Default/Local Storage/leveldb/MANIFEST-000001
+    Type: likely_text
+    Size: 41 bytes
+    Modified: 2023-08-16T20:15:46
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/55b267d7.txt]
+
+DIRECTORY: app_webview_sogou.mobile.explorer.hotwords/Default/Session Storage/
+------------------------------------------------------------
+
+  app_webview_sogou.mobile.explorer.hotwords/Default/Session Storage/CURRENT
+    Type: likely_text
+    Size: 16 bytes
+    Modified: 2026-03-19T15:54:38
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/10907f69.txt]
+
+  app_webview_sogou.mobile.explorer.hotwords/Default/Session Storage/LOCK
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2026-03-19T15:54:38
+
+  app_webview_sogou.mobile.explorer.hotwords/Default/Session Storage/MANIFEST-000001
+    Type: likely_text
+    Size: 41 bytes
+    Modified: 2026-03-19T15:54:38
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/8bb3087b.txt]
+
+DIRECTORY: databases/
+------------------------------------------------------------
+
+  databases/beacon_db_com.sohu.inputmethod.sogou.xiaomi_scrashly-wal
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2026-03-18T06:55:38
+
+  databases/beacon_db_sogou.mobile.explorer.hotwords-wal
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2026-03-19T15:54:36
+
+DIRECTORY: files/
+------------------------------------------------------------
+
+  files/.system_android_l2
+    Type: unknown (None)
+    Size: 65 bytes
+    Modified: 2023-07-11T21:00:36
+
+  files/SoftwareStatistics-messagetmp.xml
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2026-03-19T15:21:20
+
+  files/crashlock
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-08-04T20:31:40
+
+  files/upgrade.json
+    Type: json
+    Size: 32 bytes
+    Modified: 2023-08-23T08:04:12
+
+DIRECTORY: files/.dict/
+------------------------------------------------------------
+
+  files/.dict/pingback.txt
+    Type: text
+    Size: 4 bytes
+    Modified: 2026-03-19T09:42:26
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/936c2761.txt]
+
+DIRECTORY: files/.xiaomi/img/
+------------------------------------------------------------
+
+  files/.xiaomi/img/a.webp
+    Type: image
+    Size: 1480 bytes
+    Modified: 2026-03-20T05:15:54
+    Image: .webp, 1480 bytes
+
+DIRECTORY: files/beacon/
+------------------------------------------------------------
+
+  files/beacon/prop_V1
+    Type: unknown (None)
+    Size: 618 bytes
+    Modified: 2026-03-20T07:06:32
+
+DIRECTORY: files/branddict/
+------------------------------------------------------------
+
+  files/branddict/BrandCand.txt
+    Type: text
+    Size: 30 bytes
+    Modified: 2023-09-18T11:09:08
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/694e7a02.txt]
+
+DIRECTORY: files/expression/
+------------------------------------------------------------
+
+  files/expression/expression_pic_collect_log
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-09-29T21:28:04
+
+  files/expression/expression_pic_history_log
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-09-29T21:28:04
+
+DIRECTORY: files/flx/vpa_anim/default_style/
+------------------------------------------------------------
+
+  files/flx/vpa_anim/default_style/vpa_press_sentence.webp
+    Type: image
+    Size: 70666 bytes
+    Modified: 2023-07-11T21:00:36
+    Image: .webp, 70666 bytes
+
+DIRECTORY: files/flxwhitelist/
+------------------------------------------------------------
+
+  files/flxwhitelist/flxwidewhite_dict.scel
+    Type: unknown (None)
+    Size: 72 bytes
+    Modified: 2023-08-06T12:29:28
+
+DIRECTORY: files/foreign/107_0/
+------------------------------------------------------------
+
+  files/foreign/107_0/build_version_0
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-07-11T21:00:34
+
+  files/foreign/107_0/dict_copy_0
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-07-11T21:00:34
+
+DIRECTORY: files/foreign/107_0/core/dict/
+------------------------------------------------------------
+
+  files/foreign/107_0/core/dict/bo.md5
+    Type: likely_text
+    Size: 32 bytes
+    Modified: 2023-07-11T21:00:34
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/f68d824e.txt]
+
+DIRECTORY: files/foreign/188_0/
+------------------------------------------------------------
+
+  files/foreign/188_0/build_version_0
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-07-11T21:00:34
+
+  files/foreign/188_0/dict_copy_0
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-07-11T21:00:34
+
+DIRECTORY: files/foreign/188_0/core/dict/
+------------------------------------------------------------
+
+  files/foreign/188_0/core/dict/ug.md5
+    Type: likely_text
+    Size: 32 bytes
+    Modified: 2023-07-11T21:00:34
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/fcf52ff9.txt]
+
+DIRECTORY: files/foreign/1_10/
+------------------------------------------------------------
+
+  files/foreign/1_10/build_version_10
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-07-11T21:00:34
+
+  files/foreign/1_10/dict_copy_10
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-07-11T21:00:34
+
+  files/foreign/1_10/extra_info
+    Type: likely_text
+    Size: 25 bytes
+    Modified: 2024-06-26T12:29:26
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/ba286739.txt]
+
+DIRECTORY: files/foreign/1_10/core/dict/
+------------------------------------------------------------
+
+  files/foreign/1_10/core/dict/en.md5
+    Type: likely_text
+    Size: 32 bytes
+    Modified: 2024-06-26T12:29:26
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/4fa41f9d.txt]
+
+DIRECTORY: files/foreign/temp/1/core/dict/
+------------------------------------------------------------
+
+  files/foreign/temp/1/core/dict/en.md5
+    Type: likely_text
+    Size: 32 bytes
+    Modified: 2024-06-26T12:29:26
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/c50d27c0.txt]
+
+DIRECTORY: files/foreign_event_backup/
+------------------------------------------------------------
+
+  files/foreign_event_backup/foreign_event_backupdef
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2025-08-27T23:12:50
+
+DIRECTORY: files/hotcell/
+------------------------------------------------------------
+
+  files/hotcell/hotcell_dict.scel
+    Type: unknown (None)
+    Size: 145360 bytes
+    Modified: 2026-03-20T06:57:44
+
+DIRECTORY: files/hybrid/
+------------------------------------------------------------
+
+  files/hybrid/hybridEnabled
+    Type: empty_file
+    Size: 0 bytes
+    Modified: 2023-08-04T20:57:46
+
+DIRECTORY: files/logan_v1/
+------------------------------------------------------------
+
+  files/logan_v1/1773615600000
+    Type: unknown (None)
+    Size: 67078 bytes
+    Modified: 2026-03-16T09:15:16
+
+  files/logan_v1/1773622800000
+    Type: unknown (None)
+    Size: 33564 bytes
+    Modified: 2026-03-16T11:10:42
+
+  files/logan_v1/1773630000000
+    Type: unknown (None)
+    Size: 24058 bytes
+    Modified: 2026-03-16T13:13:12
+
+  files/logan_v1/1773637200000
+    Type: unknown (None)
+    Size: 18324 bytes
+    Modified: 2026-03-16T15:07:14
+
+  files/logan_v1/1773644400000
+    Type: unknown (None)
+    Size: 14596 bytes
+    Modified: 2026-03-16T17:04:14
+
+  files/logan_v1/1773651600000
+    Type: unknown (None)
+    Size: 50382 bytes
+    Modified: 2026-03-16T19:07:36
+
+  files/logan_v1/1773658800000
+    Type: unknown (None)
+    Size: 35846 bytes
+    Modified: 2026-03-16T21:01:58
+
+  files/logan_v1/1773666000000
+    Type: unknown (None)
+    Size: 32582 bytes
+    Modified: 2026-03-16T23:00:16
+
+  files/logan_v1/1773673200000
+    Type: unknown (None)
+    Size: 46386 bytes
+    Modified: 2026-03-17T01:00:42
+
+  files/logan_v1/1773680400000
+    Type: unknown (None)
+    Size: 4450 bytes
+    Modified: 2026-03-17T06:05:10
+
+  files/logan_v1/1773698400000
+    Type: unknown (None)
+    Size: 42296 bytes
+    Modified: 2026-03-17T08:01:00
+
+  files/logan_v1/1773705600000
+    Type: unknown (None)
+    Size: 58010 bytes
+    Modified: 2026-03-17T10:01:40
+
+  files/logan_v1/1773712800000
+    Type: unknown (None)
+    Size: 64880 bytes
+    Modified: 2026-03-17T12:00:48
+
+  files/logan_v1/1773720000000
+    Type: unknown (None)
+    Size: 35398 bytes
+    Modified: 2026-03-17T14:01:14
+
+  files/logan_v1/1773727200000
+    Type: unknown (None)
+    Size: 50750 bytes
+    Modified: 2026-03-17T16:00:02
+
+  files/logan_v1/1773734400000
+    Type: unknown (None)
+    Size: 57152 bytes
+    Modified: 2026-03-17T18:04:20
+
+  files/logan_v1/1773741600000
+    Type: unknown (None)
+    Size: 148296 bytes
+    Modified: 2026-03-17T20:00:52
+
+  files/logan_v1/1773748800000
+    Type: unknown (None)
+    Size: 129067 bytes
+    Modified: 2026-03-17T21:52:16
+
+  files/logan_v1/1773752400000
+    Type: unknown (None)
+    Size: 21082 bytes
+    Modified: 2026-03-17T23:00:02
+
+  files/logan_v1/1773759600000
+    Type: unknown (None)
+    Size: 28176 bytes
+    Modified: 2026-03-18T01:00:34
+
+  files/logan_v1/1773766800000
+    Type: unknown (None)
+    Size: 44654 bytes
+    Modified: 2026-03-18T05:05:12
+
+  files/logan_v1/1773781200000
+    Type: unknown (None)
+    Size: 10072 bytes
+    Modified: 2026-03-18T07:02:20
+
+  files/logan_v1/1773788400000
+    Type: unknown (None)
+    Size: 37180 bytes
+    Modified: 2026-03-18T09:14:00
+
+  files/logan_v1/1773795600000
+    Type: unknown (None)
+    Size: 323402 bytes
+    Modified: 2026-03-18T11:00:26
+
+  files/logan_v1/1773802800000
+    Type: unknown (None)
+    Size: 360574 bytes
+    Modified: 2026-03-18T13:00:00
+
+  files/logan_v1/1773817200000
+    Type: unknown (None)
+    Size: 268472 bytes
+    Modified: 2026-03-18T17:03:10
+
+  files/logan_v1/1773824400000
+    Type: unknown (None)
+    Size: 117838 bytes
+    Modified: 2026-03-18T19:02:36
+
+  files/logan_v1/1773831600000
+    Type: unknown (None)
+    Size: 74478 bytes
+    Modified: 2026-03-18T21:02:04
+
+  files/logan_v1/1773838800000
+    Type: unknown (None)
+    Size: 35682 bytes
+    Modified: 2026-03-18T23:00:10
+
+  files/logan_v1/1773846000000
+    Type: unknown (None)
+    Size: 96014 bytes
+    Modified: 2026-03-19T05:05:12
+
+  files/logan_v1/1773867600000
+    Type: unknown (None)
+    Size: 17076 bytes
+    Modified: 2026-03-19T07:00:34
+
+  files/logan_v1/1773874800000
+    Type: unknown (None)
+    Size: 56522 bytes
+    Modified: 2026-03-19T09:00:34
+
+  files/logan_v1/1773882000000
+    Type: unknown (None)
+    Size: 43086 bytes
+    Modified: 2026-03-19T11:10:40
+
+  files/logan_v1/1773889200000
+    Type: unknown (None)
+    Size: 46548 bytes
+    Modified: 2026-03-19T13:13:06
+
+  files/logan_v1/1773896400000
+    Type: unknown (None)
+    Size: 149450 bytes
+    Modified: 2026-03-19T15:00:56
+
+  files/logan_v1/1773903600000
+    Type: unknown (None)
+    Size: 297168 bytes
+    Modified: 2026-03-19T17:00:00
+
+  files/logan_v1/1773910800000
+    Type: unknown (None)
+    Size: 225189 bytes
+    Modified: 2026-03-19T18:30:50
+
+  files/logan_v1/1773914400000
+    Type: unknown (None)
+    Size: 169472 bytes
+    Modified: 2026-03-19T20:12:36
+
+  files/logan_v1/1773921600000
+    Type: unknown (None)
+    Size: 49214 bytes
+    Modified: 2026-03-19T22:00:06
+
+  files/logan_v1/1773928800000
+    Type: unknown (None)
+    Size: 41138 bytes
+    Modified: 2026-03-20T00:00:04
+
+  files/logan_v1/1773936000000
+    Type: unknown (None)
+    Size: 18068 bytes
+    Modified: 2026-03-20T06:05:00
+
+  files/logan_v1/1773957600000
+    Type: unknown (None)
+    Size: 168056 bytes
+    Modified: 2026-03-20T07:06:20
+
+DIRECTORY: files/pic/
+------------------------------------------------------------
+
+  files/pic/dd4a9bc88c13c7ab1fc6d39b089dbd36
+    Type: likely_text
+    Size: 20 bytes
+    Modified: 2026-03-18T11:30:48
+    Text file: 1 lines
+    [Exported text to: /workspaces/containerOpenclaw/.openclaw/workspace/com.sohu.inputmethod.sogou.xiaomi/../exported_text/be31deb3.txt]
+
+DIRECTORY: files/voice_input/temp/
+------------------------------------------------------------
+
+  files/voice_input/temp/vad.zip
+    Type: unknown (application/zip)
+    Size: 312000 bytes
+    Modified: 2026-03-19T19:17:04
